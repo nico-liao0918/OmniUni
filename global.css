@@ -255,6 +255,28 @@ main ul li {
     border-top: 2px solid var(--popup-border);
 }
 
+/* Product Gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* spacing between images */
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.gallery img {
+    max-width: 200px; /* or adjust to your preference */
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #666;
+}
+
 /* Footer */
 footer {
     padding: 10px;
