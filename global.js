@@ -32,14 +32,14 @@ window.addEventListener('DOMContentLoaded', () => {
     setTimeout(openPopup, 5000);
 });
 
-const hamburger = document.getElementById("hamburger");
-const navMenu = document.getElementById("navMenu");
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.getElementById("hamburger");
+    const navMenu = document.getElementById("navMenu");
 
-if (hamburger && navMenu) {
     hamburger.addEventListener("click", () => {
         navMenu.classList.toggle("active");
     });
-}
+});
 
 // Simple lightbox for product images
 const galleryImages = document.querySelectorAll('.gallery img');

@@ -119,6 +119,17 @@ body.dark-mode .popup-box {
     border: 2px solid #aaa;
 }
 
+/* Hamburger */
+
+.hamburger {
+    display: none; /* hidden by default */
+    font-size: 30px;
+    color: white; /* or any visible color */
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
 /* Mobile mode */
 
 @media (min-width: 320px) and (max-width: 768px) {
@@ -144,14 +155,6 @@ body.dark-mode .popup-box {
     .hamburger {
         display: block;
     }
-}
-
-/* Hamburger */
-
-.hamburger {
-    display: none;
-    font-size: 26px;
-    cursor: pointer;
 }
 
 /* Main */
