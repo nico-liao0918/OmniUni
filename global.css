@@ -216,7 +216,7 @@ main ul li {
 }
 
 .category {
-    display: inline-flex;
+    display: block;
     justify-content: center;
     list-style-type: none;
     text-decoration: none;
