@@ -95,6 +95,14 @@ body {
   color: var(--text-color);
 }
 
+main, p, h3, h4 {
+    color: var(--text-color);
+}
+
+.dkm {
+    color: var(--text-color);
+}
+
 /* Dark Mode */
 body.dark-mode {
     --bg-color: black;
